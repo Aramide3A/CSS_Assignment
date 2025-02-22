@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6fbf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Left Section */
+.left-section {
+    width: 40%;
+    padding-right: 30px;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Right Section */
+.right-section {
+    width: 60%;
+}
+
+/* Form Layout */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Two Column Layout */
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background: white;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #17c3b2;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #14a897;
+}
+
+/* Terms Text */
+.terms {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+}
+
+.terms a {
+    color: #17c3b2;
+    text-decoration: none;
+    font-weight: bold;
+}

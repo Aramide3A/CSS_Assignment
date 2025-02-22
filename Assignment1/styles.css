@@ -1,0 +1,69 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    font-family: Arial, sans-serif;
+}
+
+/* Outer white card */
+.outer-container {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Inner black card */
+.inner-container {
+    background: black;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card container */
+.card {
+    background: white;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Heading that "peeks out" */
+.card-header {
+    background: #ff0080;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+    position: absolute;
+    top: -20px;  /* This makes it peek out */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Adjust width for peeking effect */
+    border-radius: 8px;
+}
+
+/* Card body */
+.card-body {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #333;
+}
